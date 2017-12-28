@@ -1430,7 +1430,7 @@ textarea {
 	position: relative;
 	width: 100%;
 	overflow: hidden;
-	max-height:100%;
+	max-height:20em;
 	//background:#3f2d28;
 	background: url(../images/line7Bg.jpg) center center no-repeat;
 	-webkit-background-size: cover;
@@ -1542,7 +1542,7 @@ textarea {
 	
 }
 .soc {
-	margin-top: 42px;
+	margin-top: 13em;
 	text-align: center;
 }
 .soc ul{
@@ -1869,8 +1869,11 @@ textarea {
 	.line6 iframe{
 		height:750px;
 	}
-	.line6{
+	/*.line6{
 		height:350px;
+	}*/
+	.line7{
+		margin-top: 1em;
 	}
 }
 
