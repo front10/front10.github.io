@@ -19,7 +19,8 @@ body{
 	width: 100%;
 	overflow: hidden;
 	height:100%;
-	background: url(../images/bgTop.jpg) center center no-repeat;
+	/* background: url(../images/bgTop.jpg) center center no-repeat; */
+	background: url(../images/pexels-photo-355465.jpeg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -328,7 +329,11 @@ border: none;
 	width: 100%;
 	overflow: hidden;
 	height:100%;
+	background: url(../images/pexels-photo.jpg) center center no-repeat;
+	/* background: url(../images/bgTop.jpg) center center no-repeat;
 	background: url(../images/bgTop.jpg) center center no-repeat;
+	background: url(../images/bgTop.jpg) center center no-repeat;
+	background: url(../images/bgTop.jpg) center center no-repeat; */
 	/*background:url(../images/line2.png) center center no-repeat;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -675,7 +680,7 @@ border: none;
 	width: 100%;
 	overflow: hidden;
 	height:100%;
-	background: url(../images/bgTop.jpg) center center no-repeat;
+	background: url(../images/sky-lights-space-dark.jpg) center center no-repeat;
 	/*background: url(../images/line3Bg.jpg) center center no-repeat;*/
 	/*background:#3f2d28;*/
 	-webkit-background-size: cover;
@@ -1153,7 +1158,8 @@ border: none;
 	width: 100%;
 	overflow: hidden;
 	height:100%;
-	background: url(../images/bgTop.jpg) center center no-repeat;
+  /* background: url(../images/pexels-photo-631477.jpeg) center center no-repeat;   */
+  background: url(../images/night-stars-clouds-42393.jpeg) center center no-repeat;  
 	/*background: url(../images/line5Bg.jpg) center center no-repeat;	*/
 	/*background:#3f2d28;*/
 	-webkit-background-size: cover;
@@ -1432,7 +1438,7 @@ textarea {
 	overflow: hidden;
 	max-height:20em;
 	//background:#3f2d28;
-	background: url(../images/line7Bg.jpg) center center no-repeat;
+	background: url(../images/night-stars-clouds-42393.jpeg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
