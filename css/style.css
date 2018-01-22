@@ -1436,7 +1436,7 @@ textarea {
 	position: relative;
 	width: 100%;
 	overflow: hidden;
-	max-height:20em;
+	max-height:30em;
 	//background:#3f2d28;
 	background: url(../images/night-stars-clouds-42393.jpeg) center center no-repeat;
 	-webkit-background-size: cover;
