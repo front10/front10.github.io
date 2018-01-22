@@ -1759,8 +1759,8 @@ textarea {
 	overflow: hidden;
 	height: 100%;
 	
-	background: url(../images/bgFooter.png)  no-repeat;
-	background:#101010;
+	/*background: url(../images/bgFooter.png)  no-repeat;*/
+	background: #101010;
 }
 .downLine{
 	margin-bottom: 35px;
@@ -1782,7 +1782,8 @@ textarea {
 	left: 0;
 	width: 100%;
 	height: 178px;
-	background: url(../images/bgBeforFooter.png) center center no-repeat;
+	/*background: url(../images/bgBeforFooter.png) center center no-repeat;*/
+	background-color: #101010;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
