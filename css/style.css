@@ -1495,7 +1495,7 @@ textarea {
 	font-family: 'Roboto', 'sans-serif';
 	font-weight: 300;
 	color:#fff;
-	text-align:center;
+	/*text-align:center;*/
 }
 .footer .fEmail{
 	float:left;
@@ -1815,10 +1815,10 @@ textarea {
 	margin-bottom: 10px;
 }
 #downMenu li:last-child a{
-	padding-right:0;
+	/*padding-right:0;*/
 }
 #downMenu li a:hover{
-	color:#6d6d6d;
+	background:#1c1c1c;
 }
 .downLine input{
 	max-width: 95px;
@@ -1847,7 +1847,7 @@ textarea {
 
 @media screen and (max-width: 991px){
 	.copy p{
-		text-align:center;
+		/*text-align:center;*/
 	}
 	#downMenu ul li{
 		float: none;
