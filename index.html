@@ -222,14 +222,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-9 col-xs-12 forma">
-					<form>
-						<input type="text" class="col-md-6 col-xs-12 name" name='name' placeholder='Name *'/>
-						<input type="text" class="col-md-6 col-xs-12 Email" name='Email' placeholder='Email *'/>
-						<input type="text" class="col-md-12 col-xs-12 Subject" name='Subject' placeholder='Subject'/>
-						<textarea type="text" class="col-md-12 col-xs-12 Message" name='Message' placeholder='Message *'></textarea>
-						<div class="cBtn col-xs-12">
+					<form class="js-contact-form">
+						<input type="text" class="col-md-12 col-xs-12 name" name='name' placeholder='Name'/>
+						<input type="text" class="col-md-12 col-xs-12 Email" name='email' placeholder='Email *' type="email" required/>
+						<textarea type="text" class="col-md-12 col-xs-12 Message" name='message' placeholder='Message *' required></textarea>
+            <div class="js-contact-form__alert__container">        
+            </div>
+            <div class="cBtn col-xs-12">
 							<ul>
-								<li class="send"><a href="mailto:sales@front10.com"><i class="fa fa-share"></i>Send Message</a></li>
+								<!-- <li class="send"><a class="js-contact-form__call-to-action" href="mailto:hello@front10.com"><i class="fa fa-share"></i>Send Message</a></li> -->
+								<li class="send js-contact-form__call-to-action"><a href="#" onclick="return false;"><i class="fa fa-share"></i><span class="js-call-to-action-message">Send Message<span></span></a></li>
 							</ul>
 						</div>
 					</form>
@@ -238,7 +240,7 @@
 					<ul>
 						<li><i class="fa fa-home"></i>400 NW 26th St, Miami, FL 33127</li>
 						<li><i class="fa fa-phone"></i>+1 305 902 9588, +1 786 515 8283</li>
-						<li><a href="mailto:sales@front10.com"><i class="fa fa-envelope"></i>sales@front10.com</li></a>
+						<li><a href="mailto:hello@front10.com"><i class="fa fa-envelope"></i>hello@front10.com</li></a>
 						<!-- <li><i class="fa fa-skype"></i>Front10</li> -->
 						<!-- <li><a target="_blank" href="https://twitter.com/front10hello"><i class="fa fa-twitter"></i>Twitter</li></a> -->
 						<!-- <li><a target="_blank" href="https://www.npmjs.com/~front10"><i class="fa fa-barcode"></i>Npm</li></a> -->
@@ -293,6 +295,7 @@
 	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.slicknav.js"></script>
+	<script src="js/contactForm.js"></script>
 	<script>
 			$(document).ready(function(){
 			$(".bhide").click(function(){
