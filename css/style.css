@@ -2202,3 +2202,37 @@ margin-bottom: 35px !important;
   margin-top: 17px;
   margin-bottom: 23px;
 }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.font-size-signs {
+	font-size: 5em;
+}
+
+.img-card {
+    border-radius: 5px 5px 0 0;
+}
+
+.p-5 {
+    padding: 5%;
+}
+
+@media screen and (max-width: 768px) {
+	.font-size-signs {
+		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 562px) {
+	.ftext {
+		font-size: 1em;
+	}
+}
