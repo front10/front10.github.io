@@ -2170,3 +2170,35 @@ margin-bottom: 35px !important;
   border: 0px;
   max-width: 816px;
 }
+
+.camera_caption h2{
+  font-size: 60px;
+}
+
+.Ama h4 {
+  font-size: 23px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 400;
+  margin-top: 25px;
+  /* background: #00000054; */
+  padding: 11px;
+}
+.signaling-icon--wrapper{
+  text-align: center;
+}
+.signaling-icon{
+  font-size: 48px;
+  color: white;
+}
+
+.Ama h3 {
+  font-size: 42px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 400;
+  margin-top: 17px;
+  margin-bottom: 23px;
+}
