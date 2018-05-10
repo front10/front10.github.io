@@ -2202,3 +2202,35 @@ margin-bottom: 35px !important;
   margin-top: 17px;
   margin-bottom: 23px;
 }
+
+.portfolio-description{
+  text-align: center;
+}
+
+.line-container{
+  background: #F7F7F7;
+  margin-top: 47px;
+  padding-bottom: 23px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background: white;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.card-container {
+  padding: 2px 16px;
+}
+
+.card-title{
+  text-align: center;
+}
+
