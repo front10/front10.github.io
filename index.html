@@ -1,583 +1,714 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-		<title>Front10</title>
-		<meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/favicon-32x32.png">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-		<link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'>
 
-		<link rel="stylesheet" type="text/css" href="css/slicknav.css">
-		<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		
-		
-		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700|Open+Sans:700' rel='stylesheet' type='text/css'>
-		<script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
-		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
-		<script type="text/javascript" src="js/camera.min.js"></script>
-		<script type="text/javascript" src="js/myscript.js"></script>
-		<script src="js/sorting.js" type="text/javascript"></script>
-		<script src="js/jquery.isotope.js" type="text/javascript"></script>
-		<!--script type="text/javascript" src="js/jquery.nav.js"></script-->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44521541-9"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <title>Agency - Start Bootstrap Theme</title>
 
-      gtag('config', 'UA-44521541-9');
-    </script>
-		<script>
-			jQuery(function(){
-					jQuery('#camera_wrap_1').camera({
-					transPeriod: 500,
-					time: 3000,
-					height: '490px',
-					thumbnails: false,
-					pagination: true,
-					playPause: false,
-					loader: false,
-					navigation: false,
-					hover: false
-				});
-			});
-		</script>
-		
-	</head>
-	<body>
-    
-    <!--home start-->
-    
-    <div id="home">
-    	<div class="headerLine">
-	<div id="menuF" class="default">
-		<div class="container">
-			<div class="row">
-				<div class="logo col-md-4">
-					<div>
-						<a href="#">
-              				<img class="img-responsive"  src="images/logo.png"/>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-8">
-					<div class="navmenu"style="text-align: center;">
-						<ul id="menu">
-							<li class="active" ><a href="#home">Home</a></li>
-							<li><a href="#about">About</a></li>
-							<!-- <li><a href="#project">Projects</a></li> -->
-							<!-- <li><a href="#news">News</a></li> -->
-							<li class="last"><a href="#contact">Contact</a></li>
-							<!--li><a href="#features">Features</a></li-->
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-		<div class="container">
-			<div class="row wrap">
-				<div class="col-md-12 gallery"> 
-						<div class="camera_wrap camera_white_skin" id="camera_wrap_1">
-							<div data-thumb="" data-src="images/slides/blank.gif">
-								<div class="img-responsive camera_caption fadeFromBottom">
-									<h2>Leverage your team.</h2>
-								</div>
-							</div>
-							<div data-thumb="" data-src="images/slides/blank.gif">
-								<div class="img-responsive camera_caption fadeFromBottom">
-									<h2>Leverage your process.</h2>
-								</div>
-							</div>
-							<div data-thumb="" data-src="images/slides/blank.gif">
-								<div class="img-responsive camera_caption fadeFromBottom">
-									<h2>Scale.</h2>
-								</div>
-							</div>
-						</div><!-- #camera_wrap_1 -->
-				</div>
-			</div>
-		</div>
-	</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 cBusiness">
-					<h3 class="hidden-xs">We are experts FrontEnd developers &ndash; We create reusable components</h3>
-					<h3 class="hidden-sm hidden-md hidden-lg">We are experts FrontEnd developers</h3>
-					<h4>Helping your team build reusable, predictable, and easy to use FrontEnd applications.</h4>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 centPic">
-					<img class="img-responsive"  src="https://cdn-images-1.medium.com/max/1600/1*HUUqhC5phoYZFWR4n8VDWg.gif"/>
-				</div>
-			</div>
-		</div>   
-    </div>
-    
-    <!--about start-->    
-    
-    <div id="about">
-    	<div class="line2">
-			<div class="container">
-				<div class="row Fresh">
-					<div class="col-md-4 Des">
-						<i class="fa fa-heart"></i>
-						<h4>We Empower Component Explorers</h4>
-						<p>Changing developers approach for better. </p>
-					</div>
-					<div class="col-md-4 Ver">
-						<i class="fa fa-cog"></i>
-						<h4>Component Driven Development</h4>
-						<p>It's not just agile, it's not just components...it's our process. </p>
-					</div>
-					<div class="col-md-4 Fully">
-						<i class="fa fa-users"></i>
-						<h4>Team Players</h4>
-						<p>Favorite statement. This is us. </p>
-					</div>		
-				</div>
-			</div>
-		</div>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Who else is using component driven development -->
-		<div class="container">
-        <div class="row">
-          <div class="col-xs-12 cBusiness">
-              <h3 style="margin-bottom: 30px;">Who else is using component driven development?</h3>
-          </div>
-          <div class="col-md-3 col-xs-4 bar">
-            <a href="https://www.salesforce.com/" target="_blank">
-                <img class="img-responsive"  src="https://res.cloudinary.com/front10/image/upload/t_media_lib_thumb/v1525919826/salesforce-logo-273F95FE60-seeklogo.com.png"/>
-            </a>
-          </div>
-          <div class="col-md-3 col-xs-4 bar">
-            <a href="https://www.walmartlabs.com/" target="_blank">
-                <img class="img-responsive"  src="https://res.cloudinary.com/front10/image/upload/t_media_lib_thumb/v1525919629/2000px-Walmart_logo.svg.png"/>
-            </a>
-          </div>
-          <div class="col-md-3 col-xs-4 bar">
-            <a href="https://developers.facebook.com/" target="_blank">
-                <img class="img-responsive"  src="https://res.cloudinary.com/front10/image/upload/t_media_lib_thumb/v1525919460/facebook_2015_logo_detail.png"/>
-            </a>
-          </div>
-          <div class="col-md-3 col-xs-4 bar">
-            <a href="https://www.squarespace.com" target="_blank">
-                <img class="img-responsive"  src="https://res.cloudinary.com/front10/image/upload/t_media_lib_thumb/v1525919366/squarespace-logo.png"/>
-            </a>
-          </div>
-          <div class="col-md-3 col-xs-4 bar">
-            <a href="https://www.hubspot.com/" target="_blank">
-                <img class="img-responsive"  src="https://res.cloudinary.com/front10/image/upload/t_media_lib_thumb/v1525919923/hubspot-logo.jpg"/>
-            </a>
-          </div>
-          <div class="col-md-3 col-xs-4 bar">
-            <a href="https://www.airbnb.com" target="_blank">
-                <img class="img-responsive"  src="https://res.cloudinary.com/front10/image/upload/t_media_lib_thumb/v1525920377/2000px-Airbnb_Logo_B_C3_A9lo.svg.png"/>
-            </a>
-          </div>
-          <div class="col-md-3 col-xs-4 bar">
-            <a href="https://www.ibm.com" target="_blank">
-                <img class="img-responsive"  src="https://res.cloudinary.com/front10/image/upload/t_media_lib_thumb/v1525920586/purepng.com-ibm-logologobrand-logoiconslogos-251519939176ka7y8.png"/>
-            </a>
-          </div>
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-        </div>
-    </div>	
+    <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
 
-    <!-- End who else is using component driven development -->
-		<div class="line-container">
-        <div class="col-xs-12 cBusiness">
-            <h3 style="margin-bottom: 30px;">Our team</h3>
-        </div>
-        <div class="row ftext">
-          <div class="p-5">
-            <a id="features"></a>
-            <div class="col-xs-4 col-lg-offset-3 col-lg-2">
-              <div class="card col-xs-8">
-                  <img class="img-card" src="images/flaticons/teamwork.svg" alt="Team">
-                  <div class="">
-                    <h5><b>We hire the bests</b></h5> 
-                  </div>
-              </div>
-              <div class="col-xs-4 font-size-signs">+</div>
-            </div>
-            <div class="col-xs-4 col-lg-2">
-              <div class="card col-xs-12">
-                  <img class="img-card" src="images/flaticons/strategy.svg" alt="Train">
-                  <div class="hidden-xs">
-                    <h5><b>Training with our agile component driven development process</b></h5> 
-                  </div>
-                  <div class="visible-xs">
-                      <h5><b>Our agile component training</b></h5> 
-                  </div>
-              </div>
-            </div>
-            <div class="col-xs-4 col-lg-2">
-              <div class="col-xs-4 font-size-signs">=</div>
-              <div class="card col-xs-7 col-xs-offset-1">
-                  <img class="img-card" src="images/flaticons/ninja-portrait.svg" alt="Train">
-                  <div class="">
-                    <h5><b>Front End Ninjas</b></h5> 
-                  </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+  </head>
 
+  <body id="page-top">
 
-        <!-- Portfolio -->
-    <!-- <div class="line-container">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-          <div class="row">
-            <div class="col-xs-12 cBusiness">
-                <h3 style="margin-bottom: 30px;">Our work</h3>
-            </div>
-            <div class="col-md-3 col-xs-4">
-              <a href="https://front10-devs.gitlab.io/healthcare-book" target="_blank">
-                <div class="card">
-                  <img src="https://res.cloudinary.com/front10/image/upload/v1525923190/Screen_Shot_2018-05-09_at_11.32.38_PM.png" alt="Avatar" style="width:100%">
-                  <div class="card-container">
-                    <h4 class="card-title">John Doe</h4> 
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-3 col-xs-4">
-                <a href="https://front10-devs.gitlab.io/healthcare-book" target="_blank">
-                  <div class="image-wrapper">  
-                  <img class="img-responsive"  src="https://res.cloudinary.com/front10/image/upload/v1525923190/Screen_Shot_2018-05-09_at_11.32.38_PM.png"/>
-                  </div>
-                </a>
-                <h5 class="portfolio-description">HealthCare Book</h5>
-              </div>
-            <div class="col-md-3 col-xs-4">
-              <a href="http://anijs.github.io/" target="_blank">
-                <div class="image-wrapper">  
-                <img class="img-responsive"  src="https://res.cloudinary.com/front10/image/upload/v1525922023/resilient-city/Screen_Shot_2018-05-09_at_11.12.30_PM.png"/>
-                </div>
-              </a>
-              <h5 class="portfolio-description">AniJS</h5>
-            </div>
-            <div class="col-md-3 col-xs-4">
-              <a href="http://anijs.github.io/examples/scrollreveal/" target="_blank">
-                <div class="image-wrapper">  
-                <img class="img-responsive"  src="https://res.cloudinary.com/front10/image/upload/v1525922531/b63b1e02b38fd0aad443051dcc7c6908.png"/>
-                </div>
-              </a>
-              <h5 class="portfolio-description">ScrollReveal</h5>
-            </div>
-            <div class="col-md-3 col-xs-4">
-              <a href="http://anicollection.github.io" target="_blank">
-                <div class="image-wrapper">  
-                <img class="img-responsive"  src="https://res.cloudinary.com/front10/image/upload/v1525926734/Screen_Shot_2018-05-10_at_12.31.41_AM.png"/>
-              </div>
-              </a>
-              <h5 class="portfolio-description">AniCollection</h5>
-            </div>
-            <div class="col-md-3 col-xs-4">
-              <a href="http://labestrestaurants.github.io/" target="_blank">
-                <div class="image-wrapper">  
-                  <img class="img-responsive"  src="https://res.cloudinary.com/front10/image/upload/v1525923623/labestrestaurants.png"/>
-                </div>
-              </a>
-              <h5 class="portfolio-description">LA Best Restaurants</h5>
-            </div>
-            <div class="col-md-3 col-xs-4">
-              <a href="http://smartcomments.github.io/" target="_blank">
-                <div class="image-wrapper">  
-                  <img class="img-responsive"  src="https://res.cloudinary.com/front10/image/upload/v1525923717/smartcomments.png"/>
-                </div>
-              </a>
-              <h5 class="portfolio-description">SmartComments</h5>
-            </div>
-          </div>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>	 -->
-    <!-- End Portafolio -->
+    </nav>
 
-    <!-- Stack -->
-		<!-- <div class="container">
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in">Welcome To Our Studio!</div>
+          <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Services -->
+    <section id="services">
+      <div class="container">
         <div class="row">
-          <div class="col-md-3 bar">
-            <div class="progB chart" data-percent="100"  data-animate="3500">
-              <div class="chart chart-content">
-                <div class="percentage" data-percent="100">
-                  <span class="percent">100</span>
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Services</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">E-Commerce</h4>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Responsive Design</h4>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Web Security</h4>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="bg-light" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Portfolio</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-            </div>
-            <div class="textP">
-              <h3>Javascript</h3>
-              <p>Our world. </p>
+              <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Threads</h4>
+              <p class="text-muted">Illustration</p>
             </div>
           </div>
-          <div class="col-md-3 bar">
-            <div class="progB chart" data-percent="95"  data-animate="3500">
-              <div class="chart chart-content">
-                <div class="percentage" data-percent="95">
-                  <span class="percent">95</span>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-            </div>
-            <div class="textP">
-              <h3>ReactJS</h3>
-              <p>Our sword. We love it. </p>
+              <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Explore</h4>
+              <p class="text-muted">Graphic Design</p>
             </div>
           </div>
-          <div class="col-md-3 bar ">
-            <div class="progB chart" data-percent="95"  data-animate="3500">
-              <div class="chart chart-content">
-                <div class="percentage" data-percent="95">
-                  <span class="percent">95</span>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-            </div>
-            <div class="textP">
-              <h3>AngularJs</h3>
-              <p>Save us from darkness. </p>
+              <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Finish</h4>
+              <p class="text-muted">Identity</p>
             </div>
           </div>
-          <div class="col-md-3 bar ">
-            <div class="progB chart" data-percent="99"  data-animate="3500">
-              <div class="chart chart-content">
-                <div class="percentage" data-percent="99">
-                  <span class="percent">99</span>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
+              <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Lines</h4>
+              <p class="text-muted">Branding</p>
             </div>
-            <div class="textP">
-              <h3>HTML5/CSS3</h3>
-              <p>Our brush. </p>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Southwest</h4>
+              <p class="text-muted">Website Design</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Window</h4>
+              <p class="text-muted">Photography</p>
             </div>
           </div>
         </div>
-    </div>	 -->
-    <!-- End Stack -->
-    
-    <!--contact start-->
-    
-    <div id="contact">
-    	<div class="line5">					
-			<div class="container">
-				<div class="row Ama">
-					<div class="col-md-12">
-					<h3>Got a Question? We&rsquo;re Here to Help!</h3>
-					<p>Having problems to scale your Front-end applications?
-          </p>
-					<p>Need to ensure that you are in the right path?
-          </p>
-					<p>Indecision about a new technology?
-          </p>
-          <h4>Book a free 30 minutes consultation</h4>
-          <!-- <p class="signaling-icon--wrapper"><i class="fa fa-arrow-circle-o-down signaling-icon"></i></p> -->
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-9 col-xs-12 forma">
-					<form class="js-contact-form">
-						<input type="text" class="col-md-12 col-xs-12 name" name='name' placeholder='Name'/>
-						<input type="text" class="col-md-12 col-xs-12 Email" name='email' placeholder='Email *' type="email" required/>
-						<textarea type="text" class="col-md-12 col-xs-12 Message" name='message' placeholder='Message *' required></textarea>
-            <div class="js-contact-form__alert__container">        
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">About</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2009-2011</h4>
+                    <h4 class="subheading">Our Humble Beginnings</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>March 2011</h4>
+                    <h4 class="subheading">An Agency is Born</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>December 2012</h4>
+                    <h4 class="subheading">Transition to Full Service</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>July 2014</h4>
+                    <h4 class="subheading">Phase Two Expansion</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>Be Part
+                    <br>Of Our
+                    <br>Story!</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="bg-light" id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+              <h4>Kay Garland</h4>
+              <p class="text-muted">Lead Designer</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
-            <div class="cBtn col-xs-12">
-							<ul>
-								<!-- <li class="send"><a class="js-contact-form__call-to-action" href="mailto:hello@front10.com"><i class="fa fa-share"></i>Send Message</a></li> -->
-								<li class="send js-contact-form__call-to-action"><a href="#" onclick="return false;"><i class="fa fa-share"></i><span class="js-call-to-action-message">Send Message<span></span></a></li>
-							</ul>
-						</div>
-					</form>
-				</div>
-				<div class="col-md-3 col-xs-12 cont">
-					<ul>
-						<li><i class="fa fa-home"></i>400 NW 26th St, Miami, FL 33127</li>
-						<li><i class="fa fa-phone"></i><a href="tel:+1-305-902-9588">+1 305-902-9588</a>, <a href="tel:++1-786-515-8283">+1 786-515-8283</a></li>
-						<li><a href="mailto:hello@front10.com"><i class="fa fa-envelope"></i>hello@front10.com</li></a>
-						<!-- <li><i class="fa fa-skype"></i>Front10</li> -->
-						<!-- <li><a target="_blank" href="https://twitter.com/front10hello"><i class="fa fa-twitter"></i>Twitter</li></a> -->
-						<!-- <li><a target="_blank" href="https://www.npmjs.com/~front10"><i class="fa fa-barcode"></i>Npm</li></a> -->
-						<!-- <li><a href="#"><i class="fa fa-facebook-square"></i>Facebook</li></a>
-						<li><a href="#"><i class="fa fa-dribbble"></i>Dribbble</li></a>
-						<li><a href="#"><i class="fa fa-flickr"></i>Flickr</li></a>
-						<li><a href="#"><i class="fa fa-youtube-play"></i>YouTube</li></a> -->
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="line6">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.0737320382214!2d-80.2044434857389!3d25.801141483618864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6b3a5bf83e1%3A0xdceabc622068c2c5!2s400+NW+26th+St%2C+Miami%2C+FL+33127!5e0!3m2!1sen!2sus!4v1514509948983" width="100%" height="750" frameborder="0" style="border:0" allowfullscreen></iframe>
-					<!-- <iframe src="http://maps.google.com/maps?q=@25.7946418,-80.208538,17z&output=embed" width="100%" height="750" frameborder="0" style="border:0"></iframe>			 -->
-		</div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
+              <h4>Larry Parker</h4>
+              <p class="text-muted">Lead Marketer</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
+              <h4>Diana Pertersen</h4>
+              <p class="text-muted">Lead Developer</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<div class="line7">
-			<div class="container">
-				<div class="row footer">
-					<div class="soc col-md-12">
-						<ul>
-							<li class="soc3"><a target="_blank" href="https://twitter.com/front10hello"></a></li>
-							<li class="soc1"><a target="_blank" href="https://www.linkedin.com/company/front10/"></a></li>
-						</ul>
-					</div>
-					<div class="col-md-12">
-						<div class="col-xs-6 text-left copy">
-							<p>Copyright &copy; 2018 Front10 </p>
-						</div>
-						<div class="col-xs-6 text-right dm">
-							<ul id="downMenu">
-								<li class="active"><a href="#home">Home</a></li>
-								<li><a href="#about">About</a></li>
-								<li class="last"><a href="#contact">Contact</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-    </div>		
-		
-		
-	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.slicknav.js"></script>
-	<script src="js/contactForm.js"></script>
-	<script>
-			$(document).ready(function(){
-			$(".bhide").click(function(){
-				$(".hideObj").slideDown();
-				$(this).hide(); //.attr()
-				return false;
-			});
-			$(".bhide2").click(function(){
-				$(".container.hideObj2").slideDown();
-				$(this).hide(); // .attr()
-				return false;
-			});
-				
-			$('.heart').mouseover(function(){
-					$(this).find('i').removeClass('fa-heart-o').addClass('fa-heart');
-				}).mouseout(function(){
-					$(this).find('i').removeClass('fa-heart').addClass('fa-heart-o');
-				});
-				
-				function sdf_FTS(_number,_decimal,_separator)
-				{
-				var decimal=(typeof(_decimal)!='undefined')?_decimal:2;
-				var separator=(typeof(_separator)!='undefined')?_separator:'';
-				var r=parseFloat(_number)
-				var exp10=Math.pow(10,decimal);
-				r=Math.round(r*exp10)/exp10;
-				rr=Number(r).toFixed(decimal).toString().split('.');
-				b=rr[0].replace(/(\d{1,3}(?=(\d{3})+(?:\.\d|\b)))/g,"\$1"+separator);
-				r=(rr[1]?b+'.'+rr[1]:b);
+    <!-- Clients -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-				return r;
-}
-				
-			setTimeout(function(){
-					$('#counter').text('0');
-					$('#counter1').text('0');
-					$('#counter2').text('0');
-					setInterval(function(){
-						
-						var curval=parseInt($('#counter').text());
-						var curval1=parseInt($('#counter1').text().replace(' ',''));
-						var curval2=parseInt($('#counter2').text());
-						if(curval<=17){
-							$('#counter').text(curval+1);
-						}
-						if(curval1<=74){
-							$('#counter1').text(sdf_FTS((curval1+20),0,' '));
-						}
-						if(curval2<=6){
-							$('#counter2').text(curval2+1);
-						}
-					}, 2);
-					
-				}, 500);
-			});
-	</script>
-	<script type="text/javascript">
-	jQuery(document).ready(function(){
-		jQuery('#menu').slicknav();
-		
-	});
-	</script>
-	
-	<script type="text/javascript">
-    $(document).ready(function(){
-       
-        var $menu = $("#menuF");
-            
-        $(window).scroll(function(){
-            if ( $(this).scrollTop() > 100 && $menu.hasClass("default") ){
-                $menu.fadeOut('fast',function(){
-                    $(this).removeClass("default")
-                           .addClass("fixed transbg")
-                           .fadeIn('fast');
-                });
-            } else if($(this).scrollTop() <= 100 && $menu.hasClass("fixed")) {
-                $menu.fadeOut('fast',function(){
-                    $(this).removeClass("fixed transbg")
-                           .addClass("default")
-                           .fadeIn('fast');
-                });
-            }
-        });
-	});
-    //jQuery
-	</script>
-	<script>
-		/*menu*/
-		function calculateScroll() {
-			var contentTop      =   [];
-			var contentBottom   =   [];
-			var winTop      =   $(window).scrollTop();
-			var rangeTop    =   200;
-			var rangeBottom =   500;
-			$('.navmenu').find('a').each(function(){
-				contentTop.push( $( $(this).attr('href') ).offset().top );
-				contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
-			})
-			$.each( contentTop, function(i){
-				if ( winTop > contentTop[i] - rangeTop && winTop < contentBottom[i] - rangeBottom ){
-					$('.navmenu li')
-					.removeClass('active')
-					.eq(i).addClass('active');				
-				}
-			})
-		};
-		
-		$(document).ready(function(){
-			calculateScroll();
-			$(window).scroll(function(event) {
-				calculateScroll();
-			});
-			$('.navmenu ul li a').click(function() {  
-				$('html, body').animate({scrollTop: $(this.hash).offset().top - 80}, 800);
-				return false;
-			});
-		});		
-	</script>	
-	<script type="text/javascript" charset="utf-8">
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Contact Us</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <form id="contactForm" name="sentMessage" novalidate="novalidate">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		jQuery(document).ready(function(){
-			jQuery(".pretty a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000, autoplay_slideshow: true, social_tools: ''});
-			
-		});
-	</script>
-	</body>
-	
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; Your Website 2018</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Explore</li>
+                    <li>Category: Graphic Design</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Finish</li>
+                    <li>Category: Identity</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Lines</li>
+                    <li>Category: Branding</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Southwest</li>
+                    <li>Category: Website Design</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Window</li>
+                    <li>Category: Photography</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+  </body>
+
 </html>

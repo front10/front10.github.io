@@ -1,1 +1,6 @@
 .DS_Store
+node_modules
+vendor
+css
+*.min.js
+*.min.css
