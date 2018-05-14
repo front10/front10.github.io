@@ -13,6 +13,12 @@
     max-width: 200px;
 }
 
+.quicklinks {
+    a {
+        color: black;
+    }
+}
+
 @media(min-width:768px) {
     .timeline {
         > li {
