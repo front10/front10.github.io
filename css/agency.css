@@ -719,3 +719,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     margin-top: 2%;
   }
 }
+
+@media (max-width: 400px) {
+  header.masthead .intro-text .intro-heading {
+    font-size: 30px;
+  }
+}

@@ -28,3 +28,9 @@
         } 
     }
 }
+
+@media(max-width:400px) {
+    header.masthead .intro-text .intro-heading {
+        font-size: 30px;
+    }
+}
