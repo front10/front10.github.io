@@ -714,6 +714,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   color: black;
 }
 
+#success {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .timeline > li .timeline-panel {
     margin-top: 2%;
