@@ -3,3 +3,4 @@ node_modules
 custom.css
 custom.min.css
 npm-debug.log
+.idea/
