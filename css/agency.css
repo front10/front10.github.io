@@ -710,6 +710,11 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   max-width: 200px;
 }
 
+w-div form a {
+  visibility: hidden;
+  height: 0px !important;
+}
+
 .quicklinks a {
   color: black;
 }
