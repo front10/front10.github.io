@@ -713,6 +713,26 @@
                     w.addEventListener('load', l, false);
                 }
             }
+
+	        var watch = setInterval(function () {
+		        var iframe = d.querySelector("#jivo-iframe-container iframe");
+		        if (iframe) {
+			        clearInterval(watch);
+			        var _document = iframe.contentDocument;
+			        var style = document.createElement('style');
+			        style.textContent = '' +
+				        '#jivosite-adword{display: none;}' +
+                        '.info_3l{color: #fed136;font-weight: bold;}' +
+                        '.jivo-bottom-left-square{background-color: #fed136!important;}' +
+                        '.td-textarea textarea{border-color: #fed136!important;}' +
+                        '.__agent_3c .message_3f{color:#000}' +
+                        '.__green_1F .content_DP{background-color: rgb(199, 231, 200)!important;}' +
+                        '.__green_1F .pip_1Y{border-right: 5px solid rgb(199, 231, 200);}' +
+                        '.content_3z{background-color: #f2f4fb;}' +
+                        '.pip_2u{border-left: 5px solid #f2f4fb;}';
+			        _document.head.appendChild(style);
+		        }
+	        }, 2000);
         })();
     </script>
     <!-- END JIVOSITE CODE -->
