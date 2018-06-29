@@ -714,6 +714,14 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   display: none;
 }
 
+.text_eD {
+  color: #fed136 !important;
+}
+
+.leaf_25._bottom_DW .cssLeaf_1k svg path:first-child {
+  fill: #fed136 !important;
+}
+
 w-div form a {
   visibility: hidden;
   height: 0px !important;
