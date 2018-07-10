@@ -170,6 +170,7 @@ img::-moz-selection {
 }
 
 header.masthead {
+  position: relative;
   text-align: center;
   color: white;
   background-color: #383d45;
