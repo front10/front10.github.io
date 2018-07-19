@@ -32,3 +32,9 @@
 @mixin custom-font {
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+@mixin custom-style-btn {
+  background: #fed136;
+  border-color: #fed136;
+  color: #383e45;
+}

@@ -71,6 +71,14 @@ w-div form a{
     }
 }
 
+@media(max-width:500px) {
+    section#contact{
+        h2.section-heading {
+            font-size: 30px;
+        }
+    }
+}
+
 @media(max-width:327px) {
     .logo {
         max-width: 180px;
@@ -78,17 +86,20 @@ w-div form a{
 }
 
 #portfolio .portfolio-item .portfolio-caption p{
-  font-size: 13px;
+    font-size: 13px;
 }
 
 .mt-30{
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 .contact-goto-primary-btn{
-  background: #fed136;
-  border-color: #fed136;
-  color: #383e45;
+    font-size: 1.1rem;
+    @include custom-style-btn;
+}
+
+.tell-me-more-btn{
+    @include custom-style-btn;
 }
 
 footer{
