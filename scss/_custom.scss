@@ -4,7 +4,7 @@
             background-color: $white;
         }
         .bg-color-primary {
-            background-color: $primary;
+            background-color: $black;
         }
     } 
 }
@@ -55,6 +55,14 @@ w-div form a{
             }
         } 
     }
+
+    header.masthead .intro-text {
+        padding-top: 250px;
+    }
+
+    header.masthead .intro-text .intro-heading {
+        font-size: 65px;
+    }
 }
 
 @media(max-width:400px) {
@@ -77,8 +85,26 @@ w-div form a{
   margin-top: 30px;
 }
 
-.inverse-primary-btn{
-  background: black;
-  border-color: black;
-  color: #fed136;
+.contact-goto-primary-btn{
+  background: #fed136;
+  border-color: #fed136;
+  color: #383e45;
+}
+
+footer{
+    padding: 45px 0;
+}
+
+.btn-xl {
+    padding: 15px 40px;
+}
+
+#services .fa-stack {
+    font-size: 3.5em;
+}
+
+.masthead {
+    #custom-font{
+        @include custom-font;
+    }
 }
