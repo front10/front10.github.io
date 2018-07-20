@@ -1,12 +1,12 @@
 .timeline {
-  > li {
-    .timeline-image {
-      background-color: $white;
-    }
-    .bg-color-primary {
-      background-color: $primary;
-    }
-  }
+    > li {
+        .timeline-image {
+            background-color: $white;
+        }
+        .bg-color-primary {
+            background-color: $black;
+        }
+    } 
 }
 
 .logo {
@@ -59,38 +59,96 @@ w-div form a {
   height: 100%;
 }
 
-@media(min-width: 768px) {
-  .timeline {
-    > li {
-      .timeline-panel {
-        margin-top: 2%;
-      }
+#portfolio .portfolio-item .portfolio-caption p{
+    font-size: 13px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.contact-goto-primary-btn{
+    font-size: 1.1rem;
+    @include custom-style-btn;
+}
+
+.tell-me-more-btn{
+    @include custom-style-btn;
+}
+
+footer{
+    padding: 45px 0;
+}
+
+.btn-xl {
+    padding: 15px 40px;
+}
+
+#services .fa-stack {
+    font-size: 3.5em;
+}
+
+.masthead {
+    #custom-font{
+        @include custom-font;
     }
-  }
 }
 
-@media(max-width: 400px) {
-  header.masthead .intro-text .intro-heading {
-    font-size: 30px;
-  }
+/*MEDIAS*/
+
+@media(min-width:768px) {
+    .timeline {
+        > li {
+            .timeline-panel {
+                margin-top: 2%;
+            }
+        } 
+    }
+
+    header.masthead .intro-text {
+        padding-top: 250px;
+    }
+
+    header.masthead .intro-text .intro-heading {
+        font-size: 65px;
+    }
 }
 
-@media(max-width: 327px) {
-  .logo {
-    max-width: 180px;
-  }
+@media(max-width:400px) {
+    header.masthead .intro-text .intro-heading {
+        font-size: 30px;
+    }
+    .logo {
+        max-width: 140px;
+    }
 }
 
-#portfolio .portfolio-item .portfolio-caption p {
-  font-size: 13px;
+@media(max-width:500px) {
+    section#contact{
+        h2.section-heading {
+            font-size: 30px;
+        }
+    }
+    .logo {
+        max-width: 160px;
+    }
 }
 
-.mt-30 {
-  margin-top: 30px;
+@media(max-width:327px) {
+    .logo {
+        max-width: 120px;
+    }
+    nav#mainNav{
+        .navbar-toggler{
+            font-size: 14px;
+        }
+    }  
 }
 
-.inverse-primary-btn {
-  background: black;
-  border-color: black;
-  color: #fed136;
+@media(max-width:992px) {
+    #mainNav{
+        .navbar-toggler{
+            font-size: 16px;
+        }
+    }    
 }
