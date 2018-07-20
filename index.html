@@ -823,6 +823,7 @@
 				clearInterval(watch);
 				var _document = iframe.contentDocument;
 				var style = document.createElement('style');
+				style.setAttribute('id', 'custom-style')
 				style.textContent = '' +
 					'#jivosite-adword{display: none;}' +
 					'.info_3l{color: #fed136;font-weight: bold;}' +
@@ -832,6 +833,8 @@
 					'.__green_1F .content_DP{background-color: rgb(199, 231, 200)!important;}' +
 					'.__green_1F .pip_1Y{border-right: 5px solid rgb(199, 231, 200);}' +
 					'.content_3z{background-color: #f2f4fb;}' +
+					'.header_3g._mobile_2H, .jivoBtn.accept{background-color: #fed136 !important;}' +
+					'.header_3g._mobile_2H .info_3l{color: #fff !important;}' +
 					'.pip_2u{border-left: 5px solid #f2f4fb;}';
 				_document.head.appendChild(style);
 			}
@@ -963,7 +966,7 @@
 	stats.domElement.style.top = '0px';
 	document.body.appendChild(stats.domElement);
 	count_particles = document.querySelector('.js-count-particles');
-	update = function() {
+	update = function () {
 		stats.begin();
 		stats.end();
 		if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {

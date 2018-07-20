@@ -717,6 +717,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   max-width: 200px;
 }
 
+.button_1O {
+  background-color: #fed136 !important;
+}
+
 .logoIcon_2z {
   display: none;
 }

@@ -9,42 +9,54 @@
     } 
 }
 
-.logo{
-    max-width: 200px;
+.logo {
+  max-width: 200px;
 }
 
-.logoIcon_2z{display: none;}
-.text_eD{color: #fed136 !important;}
-.leaf_25._bottom_DW .cssLeaf_1k svg path:first-child{fill: #fed136 !important;}
+.button_1O {
+  background-color: #fed136 !important;
+}
 
-w-div form a{
+.logoIcon_2z {
+  display: none;
+}
+
+.text_eD {
+  color: #fed136 !important;
+}
+
+.leaf_25._bottom_DW .cssLeaf_1k svg path:first-child {
+  fill: #fed136 !important;
+}
+
+w-div form a {
   visibility: hidden;
   height: 0px !important;
 }
 
 .quicklinks {
-    a {
-        color: black;
-    }
+  a {
+    color: black;
+  }
 }
 
 #success {
-    display: none;
+  display: none;
 }
 
 .video-wrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
 }
 
 .video-wrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 #portfolio .portfolio-item .portfolio-caption p{
