@@ -15,7 +15,10 @@
 	"bugs": {
 		"url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
 		"email": "feedback@startbootstrap.com"
-	},
+  },
+  "scripts": {
+    "build": "gulp"
+  },
 	"license": "MIT",
 	"author": "Start Bootstrap",
 	"contributors": [
