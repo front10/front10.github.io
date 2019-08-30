@@ -15,7 +15,10 @@
 	"bugs": {
 		"url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
 		"email": "feedback@startbootstrap.com"
-	},
+  },
+  "scripts":{
+    "build": "mkdir -p ./public/css && cp -a ./css/. ./public/css && mkdir -p ./public/img && cp -a ./img/. ./public/img && mkdir -p ./public/js && cp -a ./js/. ./public/js && mkdir -p ./public/vendor && cp -a ./vendor/. ./public/vendor && cp index.html ./public/index.html"
+  },
 	"license": "MIT",
 	"author": "Start Bootstrap",
 	"contributors": [
@@ -29,7 +32,8 @@
 		"bootstrap": "4.1.1",
 		"font-awesome": "4.7.0",
 		"jquery": "3.3.1",
-		"jquery.easing": "^1.4.1"
+		"jquery.easing": "^1.4.1",
+		"natives": "^1.1.6"
 	},
 	"devDependencies": {
 		"browser-sync": "2.24.3",
@@ -37,7 +41,6 @@
 		"gulp-clean-css": "3.9.4",
 		"gulp-header": "2.0.5",
 		"gulp-rename": "^1.2.2",
-		"gulp-sass": "4.0.1",
 		"gulp-uglify": "3.0.0"
 	}
 }

@@ -2,5 +2,5 @@
 	"version": 2,
 	"name": "front10.github.io",
 	"scope": "front10",
-	"alias": ["www.front10.com", "front10.com"]
+  "alias": ["www.front10.com", "front10.com"]
 }
