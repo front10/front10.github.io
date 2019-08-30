@@ -15,10 +15,10 @@
 	"bugs": {
 		"url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
 		"email": "feedback@startbootstrap.com"
-	},
-	"scripts": {
-		"build": "gulp"
-	},
+  },
+  "scripts":{
+    "build": "mkdir -p ./public/css && cp -a ./css/. ./public/css && mkdir -p ./public/img && cp -a ./img/. ./public/img && mkdir -p ./public/js && cp -a ./js/. ./public/js && mkdir -p ./public/vendor && cp -a ./vendor/. ./public/vendor && cp index.html ./public/index.html"
+  },
 	"license": "MIT",
 	"author": "Start Bootstrap",
 	"contributors": [
